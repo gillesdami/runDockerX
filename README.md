@@ -7,11 +7,17 @@ Bash program to launch graphical apps in docker without re-writing a Dockerfile 
 runDockerX [opts] program -- build a container named program with XSOCK bindings and run it
 
 options:
+
   -p PACKAGE package(s) name(s) fetched via apt-get install requiered as a string
+
   -d DISPLAY display used default to :0
+
   -r REPOSITORY repositor(y|ies) requiered to fetch the package
+
   -e EXTRA add the string to docker run parameters
+
   -c CMD command run in the container
+  
   -h display this help
 
 ## examples
